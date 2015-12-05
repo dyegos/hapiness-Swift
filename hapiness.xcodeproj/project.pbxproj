@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88CDA9AA1C132EA400495305 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CDA9A91C132EA400495305 /* AppDelegate.swift */; };
+		88CDA9AC1C132EA400495305 /* HapinessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CDA9AB1C132EA400495305 /* HapinessViewController.swift */; };
+		88CDA9AF1C132EA400495305 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88CDA9AD1C132EA400495305 /* Main.storyboard */; };
+		88CDA9B11C132EA400495305 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88CDA9B01C132EA400495305 /* Assets.xcassets */; };
+		88CDA9B41C132EA400495305 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88CDA9B21C132EA400495305 /* LaunchScreen.storyboard */; };
+		88CDA9BF1C132EA500495305 /* hapinessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CDA9BE1C132EA500495305 /* hapinessTests.swift */; };
+		88CDA9CA1C132EA500495305 /* hapinessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CDA9C91C132EA500495305 /* hapinessUITests.swift */; };
+		88CDA9D81C132F4300495305 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CDA9D71C132F4300495305 /* FaceView.swift */; };
+		88CDA9DA1C1341D800495305 /* PsycologistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CDA9D91C1341D800495305 /* PsycologistViewController.swift */; };
+		88CDA9DC1C135F4D00495305 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CDA9DB1C135F4D00495305 /* TextViewController.swift */; };
+		88CDA9DE1C1362B700495305 /* DiagnosticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CDA9DD1C1362B700495305 /* DiagnosticViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88CDA9BB1C132EA500495305 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88CDA99E1C132EA400495305 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88CDA9A51C132EA400495305;
+			remoteInfo = hapiness;
+		};
+		88CDA9C61C132EA500495305 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88CDA99E1C132EA400495305 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88CDA9A51C132EA400495305;
+			remoteInfo = hapiness;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		88CDA9A61C132EA400495305 /* hapiness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hapiness.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88CDA9A91C132EA400495305 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		88CDA9AB1C132EA400495305 /* HapinessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapinessViewController.swift; sourceTree = "<group>"; };
+		88CDA9AE1C132EA400495305 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88CDA9B01C132EA400495305 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88CDA9B31C132EA400495305 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88CDA9B51C132EA400495305 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88CDA9BA1C132EA500495305 /* hapinessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hapinessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88CDA9BE1C132EA500495305 /* hapinessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hapinessTests.swift; sourceTree = "<group>"; };
+		88CDA9C01C132EA500495305 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88CDA9C51C132EA500495305 /* hapinessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hapinessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88CDA9C91C132EA500495305 /* hapinessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hapinessUITests.swift; sourceTree = "<group>"; };
+		88CDA9CB1C132EA500495305 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88CDA9D71C132F4300495305 /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
+		88CDA9D91C1341D800495305 /* PsycologistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PsycologistViewController.swift; sourceTree = "<group>"; };
+		88CDA9DB1C135F4D00495305 /* TextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
+		88CDA9DD1C1362B700495305 /* DiagnosticViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiagnosticViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88CDA9A31C132EA400495305 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88CDA9B71C132EA500495305 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88CDA9C21C132EA500495305 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88CDA99D1C132EA400495305 = {
+			isa = PBXGroup;
+			children = (
+				88CDA9A81C132EA400495305 /* hapiness */,
+				88CDA9BD1C132EA500495305 /* hapinessTests */,
+				88CDA9C81C132EA500495305 /* hapinessUITests */,
+				88CDA9A71C132EA400495305 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88CDA9A71C132EA400495305 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88CDA9A61C132EA400495305 /* hapiness.app */,
+				88CDA9BA1C132EA500495305 /* hapinessTests.xctest */,
+				88CDA9C51C132EA500495305 /* hapinessUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88CDA9A81C132EA400495305 /* hapiness */ = {
+			isa = PBXGroup;
+			children = (
+				88CDA9A91C132EA400495305 /* AppDelegate.swift */,
+				88CDA9AB1C132EA400495305 /* HapinessViewController.swift */,
+				88CDA9AD1C132EA400495305 /* Main.storyboard */,
+				88CDA9B01C132EA400495305 /* Assets.xcassets */,
+				88CDA9B21C132EA400495305 /* LaunchScreen.storyboard */,
+				88CDA9B51C132EA400495305 /* Info.plist */,
+				88CDA9D71C132F4300495305 /* FaceView.swift */,
+				88CDA9D91C1341D800495305 /* PsycologistViewController.swift */,
+				88CDA9DB1C135F4D00495305 /* TextViewController.swift */,
+				88CDA9DD1C1362B700495305 /* DiagnosticViewController.swift */,
+			);
+			path = hapiness;
+			sourceTree = "<group>";
+		};
+		88CDA9BD1C132EA500495305 /* hapinessTests */ = {
+			isa = PBXGroup;
+			children = (
+				88CDA9BE1C132EA500495305 /* hapinessTests.swift */,
+				88CDA9C01C132EA500495305 /* Info.plist */,
+			);
+			path = hapinessTests;
+			sourceTree = "<group>";
+		};
+		88CDA9C81C132EA500495305 /* hapinessUITests */ = {
+			isa = PBXGroup;
+			children = (
+				88CDA9C91C132EA500495305 /* hapinessUITests.swift */,
+				88CDA9CB1C132EA500495305 /* Info.plist */,
+			);
+			path = hapinessUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88CDA9A51C132EA400495305 /* hapiness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88CDA9CE1C132EA500495305 /* Build configuration list for PBXNativeTarget "hapiness" */;
+			buildPhases = (
+				88CDA9A21C132EA400495305 /* Sources */,
+				88CDA9A31C132EA400495305 /* Frameworks */,
+				88CDA9A41C132EA400495305 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hapiness;
+			productName = hapiness;
+			productReference = 88CDA9A61C132EA400495305 /* hapiness.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88CDA9B91C132EA500495305 /* hapinessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88CDA9D11C132EA500495305 /* Build configuration list for PBXNativeTarget "hapinessTests" */;
+			buildPhases = (
+				88CDA9B61C132EA500495305 /* Sources */,
+				88CDA9B71C132EA500495305 /* Frameworks */,
+				88CDA9B81C132EA500495305 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88CDA9BC1C132EA500495305 /* PBXTargetDependency */,
+			);
+			name = hapinessTests;
+			productName = hapinessTests;
+			productReference = 88CDA9BA1C132EA500495305 /* hapinessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		88CDA9C41C132EA500495305 /* hapinessUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88CDA9D41C132EA500495305 /* Build configuration list for PBXNativeTarget "hapinessUITests" */;
+			buildPhases = (
+				88CDA9C11C132EA500495305 /* Sources */,
+				88CDA9C21C132EA500495305 /* Frameworks */,
+				88CDA9C31C132EA500495305 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88CDA9C71C132EA500495305 /* PBXTargetDependency */,
+			);
+			name = hapinessUITests;
+			productName = hapinessUITests;
+			productReference = 88CDA9C51C132EA500495305 /* hapinessUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88CDA99E1C132EA400495305 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Dyego Silva";
+				TargetAttributes = {
+					88CDA9A51C132EA400495305 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					88CDA9B91C132EA500495305 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 88CDA9A51C132EA400495305;
+					};
+					88CDA9C41C132EA500495305 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 88CDA9A51C132EA400495305;
+					};
+				};
+			};
+			buildConfigurationList = 88CDA9A11C132EA400495305 /* Build configuration list for PBXProject "hapiness" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88CDA99D1C132EA400495305;
+			productRefGroup = 88CDA9A71C132EA400495305 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88CDA9A51C132EA400495305 /* hapiness */,
+				88CDA9B91C132EA500495305 /* hapinessTests */,
+				88CDA9C41C132EA500495305 /* hapinessUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88CDA9A41C132EA400495305 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88CDA9B41C132EA400495305 /* LaunchScreen.storyboard in Resources */,
+				88CDA9B11C132EA400495305 /* Assets.xcassets in Resources */,
+				88CDA9AF1C132EA400495305 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88CDA9B81C132EA500495305 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88CDA9C31C132EA500495305 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88CDA9A21C132EA400495305 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88CDA9DC1C135F4D00495305 /* TextViewController.swift in Sources */,
+				88CDA9AC1C132EA400495305 /* HapinessViewController.swift in Sources */,
+				88CDA9DA1C1341D800495305 /* PsycologistViewController.swift in Sources */,
+				88CDA9AA1C132EA400495305 /* AppDelegate.swift in Sources */,
+				88CDA9D81C132F4300495305 /* FaceView.swift in Sources */,
+				88CDA9DE1C1362B700495305 /* DiagnosticViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88CDA9B61C132EA500495305 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88CDA9BF1C132EA500495305 /* hapinessTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88CDA9C11C132EA500495305 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88CDA9CA1C132EA500495305 /* hapinessUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88CDA9BC1C132EA500495305 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88CDA9A51C132EA400495305 /* hapiness */;
+			targetProxy = 88CDA9BB1C132EA500495305 /* PBXContainerItemProxy */;
+		};
+		88CDA9C71C132EA500495305 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88CDA9A51C132EA400495305 /* hapiness */;
+			targetProxy = 88CDA9C61C132EA500495305 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		88CDA9AD1C132EA400495305 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88CDA9AE1C132EA400495305 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		88CDA9B21C132EA400495305 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88CDA9B31C132EA400495305 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88CDA9CC1C132EA500495305 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88CDA9CD1C132EA500495305 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88CDA9CF1C132EA500495305 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = hapiness/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.curso.hapiness;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		88CDA9D01C132EA500495305 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = hapiness/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.curso.hapiness;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		88CDA9D21C132EA500495305 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = hapinessTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.curso.hapinessTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hapiness.app/hapiness";
+			};
+			name = Debug;
+		};
+		88CDA9D31C132EA500495305 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = hapinessTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.curso.hapinessTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hapiness.app/hapiness";
+			};
+			name = Release;
+		};
+		88CDA9D51C132EA500495305 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = hapinessUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.curso.hapinessUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = hapiness;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		88CDA9D61C132EA500495305 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = hapinessUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.curso.hapinessUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = hapiness;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88CDA9A11C132EA400495305 /* Build configuration list for PBXProject "hapiness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88CDA9CC1C132EA500495305 /* Debug */,
+				88CDA9CD1C132EA500495305 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88CDA9CE1C132EA500495305 /* Build configuration list for PBXNativeTarget "hapiness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88CDA9CF1C132EA500495305 /* Debug */,
+				88CDA9D01C132EA500495305 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		88CDA9D11C132EA500495305 /* Build configuration list for PBXNativeTarget "hapinessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88CDA9D21C132EA500495305 /* Debug */,
+				88CDA9D31C132EA500495305 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		88CDA9D41C132EA500495305 /* Build configuration list for PBXNativeTarget "hapinessUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88CDA9D51C132EA500495305 /* Debug */,
+				88CDA9D61C132EA500495305 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88CDA99E1C132EA400495305 /* Project object */;
+}

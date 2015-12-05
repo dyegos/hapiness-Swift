@@ -63,13 +63,13 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What do you see in your dreams?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="ogp-bW-gg9">
                                 <rect key="frame" x="20" y="72" width="560" height="43"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vzp-LG-l9a">
-                                <rect key="frame" x="218" y="279" width="165" height="41"/>
+                                <rect key="frame" x="229" y="279" width="143" height="41"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="Dancing Whore"/>
+                                <state key="normal" title="Dancing Girls"/>
                                 <connections>
                                     <segue destination="gBc-Tl-rVW" kind="showDetail" identifier="happy" id="DbR-k6-S7M"/>
                                 </connections>

@@ -1,5 +1,4 @@
 # hapiness-Swift
 
--Projeto baseado nas aulas de Stanford de Swift
-
--This Swift project is based on Stanford classes
+- Projeto baseado nas aulas de Stanford de Swift
+- This Swift project is based on Stanford classes

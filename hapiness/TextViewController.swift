@@ -10,7 +10,8 @@ import UIKit
 
 class TextViewController: UIViewController
 {
-
+    func umaFuncaoQualquer() {}
+    
     @IBOutlet weak var historyText: UITextView!
     {
         didSet { historyText.text = text }
